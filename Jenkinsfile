@@ -40,6 +40,7 @@ node {
 			}else{			
 			   // rmsg = bat returnStdout: true, script: "sfdx force:mdapi:deploy -d manifest/. -u ${HUB_ORG}"
 			   rmsg = bat returnStdout: true, script: "sfdx force:source:deploy -x ./manifest/package.xml -u ${HUB_ORG}"
+               // Test
 			}
 			
 			printf rmsg  
