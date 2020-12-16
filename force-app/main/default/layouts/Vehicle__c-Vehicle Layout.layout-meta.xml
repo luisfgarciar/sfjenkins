@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>Speed__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>VIM__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
